@@ -1,0 +1,31 @@
+[project]
+name = "property-scrappers"
+version = "0.1.0"
+description = "Scrapers inmobiliarios reproducibles (Nexo, etc.)"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Diego Di Natale" }]
+classifiers = ["Programming Language :: Python :: 3"]
+
+dependencies = [
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.0",
+  "click>=8.1.0",
+  "pandas>=2.0.0",
+  "pyarrow>=14.0.0",
+  "openpyxl>=3.1.2"
+]
+
+[project.scripts]
+inmo-scrape-nexo = "inmobiliario_scrapers.scripts.nexo:main"
+inmo-scrape-nexo-batch = "inmobiliario_scrapers.scripts.nexo_batch:main"
+inmo-nexo-excel = "inmobiliario_scrapers.scripts.nexo_excel:main"
+inmo-nexo-pipeline = "inmobiliario_scrapers.scripts.nexo_pipeline:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["inmobiliario_scrapers*"]

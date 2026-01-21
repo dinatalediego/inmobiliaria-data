@@ -1,0 +1,36 @@
+name: Daily snapshot -> Supabase
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:10 UTC ~ 01:10 Lima (ajusta a tu hora)
+    - cron: "10 6 * * *"
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas pyarrow requests
+
+      - name: Run scrape + ETL (si aplica)
+        run: |
+          # aquí tu comando que genera data/silver del día
+          # python run_scrape.py --out data/silver ...
+          echo "TODO: hook scraping"
+
+      - name: Push to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SILVER_DIR: data/silver
+        run: |
+          python scripts/push_supabase_snapshot.py

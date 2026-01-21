@@ -1,0 +1,34 @@
+RUN_ID: ba99c6a7-59c9-4b55-adf7-9bd7417914ec
+SOURCE: nexo_inmobiliario
+STARTED_AT: 2026-01-18T07:37:35.619694+00:00
+URLS_FILE: urls.txt
+OUT_DIR: data\silver
+RAW_DIR: data\raw
+DELAY: min=1.5s max=3.0s
+
+[OK]   1/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/modena-3736
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-modena-3736__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-modena-3736__tipologias.parquet diff=changed
+       rows=35 parse_ok=31 parse_fail=4
+[OK]   2/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/capadocia-3690
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-capadocia-3690__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-capadocia-3690__tipologias.parquet diff=changed
+       rows=47 parse_ok=34 parse_fail=13
+[OK]   3/8 https://nexoinmobiliario.pe/proyecto/venta-de-departamento-3900-torre-napoles-jesus-maria-lima-lima-cygnus-grupo-inmobiliario
+       project=-departamento-3900-torre-napoles-jesus-maria-lima-lima-cygnus-grupo-inmobiliario__proyecto.parquet tipologias=-departamento-3900-torre-napoles-jesus-maria-lima-lima-cygnus-grupo-inmobiliario__tipologias.parquet diff=changed
+       rows=33 parse_ok=30 parse_fail=3
+[OK]   4/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/luna-3503
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-luna-3503__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-luna-3503__tipologias.parquet diff=changed
+       rows=29 parse_ok=18 parse_fail=11
+[OK]   5/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/zenna-3386
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-zenna-3386__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-zenna-3386__tipologias.parquet diff=changed
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   6/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/el-olivar-3686
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-el-olivar-3686__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-el-olivar-3686__tipologias.parquet diff=changed
+       rows=55 parse_ok=33 parse_fail=22
+[OK]   7/8 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/arbora-3233
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-arbora-3233__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-arbora-3233__tipologias.parquet diff=changed
+       rows=19 parse_ok=17 parse_fail=2
+[OK]   8/8 https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-blend-3362
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-blend-3362__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-blend-3362__tipologias.parquet diff=changed
+       rows=28 parse_ok=23 parse_fail=5
+
+SUMMARY ok=8 fail=0 total=8

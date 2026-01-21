@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: property-scrappers
+Version: 0.1.0
+Summary: Scrapers inmobiliarios reproducibles (Nexo, etc.)
+Author: Diego Di Natale
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pyarrow>=14.0.0
+Requires-Dist: openpyxl>=3.1.2

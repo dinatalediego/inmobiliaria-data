@@ -1,0 +1,5 @@
+[console_scripts]
+inmo-nexo-excel = inmobiliario_scrapers.scripts.nexo_excel:main
+inmo-nexo-pipeline = inmobiliario_scrapers.scripts.nexo_pipeline:main
+inmo-scrape-nexo = inmobiliario_scrapers.scripts.nexo:main
+inmo-scrape-nexo-batch = inmobiliario_scrapers.scripts.nexo_batch:main

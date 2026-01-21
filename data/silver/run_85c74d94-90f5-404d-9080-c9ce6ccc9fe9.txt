@@ -1,0 +1,151 @@
+RUN_ID: 85c74d94-90f5-404d-9080-c9ce6ccc9fe9
+SOURCE: nexo_inmobiliario
+STARTED_AT: 2026-01-18T17:08:19.671563+00:00
+URLS_LABEL: data\url_bank\bank_otros1.txt
+OUT_DIR: data\silver
+RAW_DIR: data\raw
+DELAY: min=1.5s max=3.0s
+
+[OK]   1/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/torre-napoles-3900
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-torre-napoles-3900__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-torre-napoles-3900__tipologias.parquet diff=new_url
+       rows=33 parse_ok=30 parse_fail=3
+[OK]   2/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-sialia-3325
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-sialia-3325__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-sialia-3325__tipologias.parquet diff=new_url
+       rows=45 parse_ok=29 parse_fail=16
+[OK]   3/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/alicanto-3398
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-alicanto-3398__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-alicanto-3398__tipologias.parquet diff=new_url
+       rows=28 parse_ok=19 parse_fail=9
+[OK]   4/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/matera-3859
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-matera-3859__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-matera-3859__tipologias.parquet diff=new_url
+       rows=75 parse_ok=48 parse_fail=27
+[OK]   5/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/tizon-y-bueno-3002
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-tizon-y-bueno-3002__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-tizon-y-bueno-3002__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   6/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-urbanzen-3207
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-urbanzen-3207__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-urbanzen-3207__tipologias.parquet diff=new_url
+       rows=19 parse_ok=13 parse_fail=6
+[OK]   7/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/edificio-fenix-3324
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-fenix-3324__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-edificio-fenix-3324__tipologias.parquet diff=new_url
+       rows=41 parse_ok=25 parse_fail=16
+[OK]   8/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/bugambilias-3784
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-bugambilias-3784__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-bugambilias-3784__tipologias.parquet diff=new_url
+       rows=43 parse_ok=32 parse_fail=11
+[OK]   9/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/eucalipto-3942
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-eucalipto-3942__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-eucalipto-3942__tipologias.parquet diff=new_url
+       rows=61 parse_ok=47 parse_fail=14
+[OK]   10/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/astre-3769
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-astre-3769__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-astre-3769__tipologias.parquet diff=new_url
+       rows=23 parse_ok=15 parse_fail=8
+[OK]   11/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/bellagio-3790
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-bellagio-3790__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-bellagio-3790__tipologias.parquet diff=new_url
+       rows=33 parse_ok=20 parse_fail=13
+[OK]   12/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/montecarlo-4039
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-montecarlo-4039__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-montecarlo-4039__tipologias.parquet diff=new_url
+       rows=17 parse_ok=17 parse_fail=0
+[OK]   13/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/nicaragua-153-3730
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-nicaragua-153-3730__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-nicaragua-153-3730__tipologias.parquet diff=new_url
+       rows=28 parse_ok=18 parse_fail=10
+[OK]   14/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/allure-jesus-maria-3899
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-allure-jesus-maria-3899__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-allure-jesus-maria-3899__tipologias.parquet diff=new_url
+       rows=43 parse_ok=32 parse_fail=11
+[OK]   15/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/maximo-abril-3347
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-maximo-abril-3347__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-maximo-abril-3347__tipologias.parquet diff=new_url
+       rows=21 parse_ok=17 parse_fail=4
+[OK]   16/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/gran-manzano-3697
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-gran-manzano-3697__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-gran-manzano-3697__tipologias.parquet diff=new_url
+       rows=73 parse_ok=55 parse_fail=18
+[OK]   17/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/salaverry-3596
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-salaverry-3596__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-salaverry-3596__tipologias.parquet diff=new_url
+       rows=15 parse_ok=15 parse_fail=0
+[OK]   18/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/zircon-3397
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-zircon-3397__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-zircon-3397__tipologias.parquet diff=new_url
+       rows=47 parse_ok=38 parse_fail=9
+[OK]   19/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/albamar-alma-4086
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-albamar-alma-4086__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-albamar-alma-4086__tipologias.parquet diff=new_url
+       rows=31 parse_ok=26 parse_fail=5
+[OK]   20/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/guisse-1060-3339
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-guisse-1060-3339__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-guisse-1060-3339__tipologias.parquet diff=new_url
+       rows=33 parse_ok=21 parse_fail=12
+[OK]   21/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/beyond-3589
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-beyond-3589__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-beyond-3589__tipologias.parquet diff=new_url
+       rows=19 parse_ok=17 parse_fail=2
+[OK]   22/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/allegra-living-3749
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-allegra-living-3749__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-allegra-living-3749__tipologias.parquet diff=new_url
+       rows=13 parse_ok=10 parse_fail=3
+[OK]   23/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/flamingo-2507
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-flamingo-2507__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-flamingo-2507__tipologias.parquet diff=new_url
+       rows=27 parse_ok=19 parse_fail=8
+[OK]   24/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/huiracocha-jesus-maria-3797
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-huiracocha-jesus-maria-3797__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-huiracocha-jesus-maria-3797__tipologias.parquet diff=new_url
+       rows=71 parse_ok=42 parse_fail=29
+[OK]   25/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/garden-tower-2300
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-garden-tower-2300__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-garden-tower-2300__tipologias.parquet diff=new_url
+       rows=13 parse_ok=10 parse_fail=3
+[OK]   26/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/nazca-4031
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-nazca-4031__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-nazca-4031__tipologias.parquet diff=new_url
+       rows=27 parse_ok=19 parse_fail=8
+[OK]   27/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/campo-marte-2893
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-campo-marte-2893__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-campo-marte-2893__tipologias.parquet diff=new_url
+       rows=23 parse_ok=15 parse_fail=8
+[OK]   28/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/legado-2596
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-legado-2596__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-legado-2596__tipologias.parquet diff=new_url
+       rows=53 parse_ok=31 parse_fail=22
+[OK]   29/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/talara702-3500
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-talara702-3500__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-talara702-3500__tipologias.parquet diff=new_url
+       rows=27 parse_ok=18 parse_fail=9
+[OK]   30/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/prime-santa-cruz-4065
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-prime-santa-cruz-4065__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-prime-santa-cruz-4065__tipologias.parquet diff=new_url
+       rows=37 parse_ok=23 parse_fail=14
+[OK]   31/47 https://nexoinmobiliario.pe/departamentos/jesus-maria/arnaldo-living-2743
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-arnaldo-living-2743__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-arnaldo-living-2743__tipologias.parquet diff=new_url
+       rows=26 parse_ok=18 parse_fail=8
+[OK]   32/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/zentra-3990
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-zentra-3990__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-zentra-3990__tipologias.parquet diff=new_url
+       rows=29 parse_ok=25 parse_fail=4
+[OK]   33/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/catleya-3664
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-catleya-3664__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-catleya-3664__tipologias.parquet diff=new_url
+       rows=31 parse_ok=24 parse_fail=7
+[OK]   34/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/lumina-3544
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-lumina-3544__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-lumina-3544__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   35/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/free-3607
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-free-3607__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-free-3607__tipologias.parquet diff=new_url
+       rows=35 parse_ok=21 parse_fail=14
+[OK]   36/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/villa-convivium-3-3782
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-villa-convivium-3-3782__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-villa-convivium-3-3782__tipologias.parquet diff=new_url
+       rows=27 parse_ok=25 parse_fail=2
+[OK]   37/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/bilancia-3729
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-bilancia-3729__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-bilancia-3729__tipologias.parquet diff=new_url
+       rows=43 parse_ok=26 parse_fail=17
+[OK]   38/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/millennium-magdalena-3687
+       project=ps-nexoinmobiliario-pe-departamentos-magdalena-del-mar-millennium-magdalena-3687__proyecto.parquet tipologias=ps-nexoinmobiliario-pe-departamentos-magdalena-del-mar-millennium-magdalena-3687__tipologias.parquet diff=new_url
+       rows=28 parse_ok=18 parse_fail=10
+[OK]   39/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/tinto-4010
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-tinto-4010__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-tinto-4010__tipologias.parquet diff=new_url
+       rows=35 parse_ok=22 parse_fail=13
+[OK]   40/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/proyecto-vanguardia-2494
+       project=tps-nexoinmobiliario-pe-departamentos-magdalena-del-mar-proyecto-vanguardia-2494__proyecto.parquet tipologias=tps-nexoinmobiliario-pe-departamentos-magdalena-del-mar-proyecto-vanguardia-2494__tipologias.parquet diff=new_url
+       rows=45 parse_ok=27 parse_fail=18
+[OK]   41/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/be-2708
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-be-2708__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-be-2708__tipologias.parquet diff=new_url
+       rows=11 parse_ok=9 parse_fail=2
+[OK]   42/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/creta-3878
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-creta-3878__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-creta-3878__tipologias.parquet diff=new_url
+       rows=31 parse_ok=22 parse_fail=9
+[OK]   43/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/eco-style-etapa-2-3426
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-eco-style-etapa-2-3426__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-eco-style-etapa-2-3426__tipologias.parquet diff=new_url
+       rows=21 parse_ok=16 parse_fail=5
+[OK]   44/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/itaca-3635
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-itaca-3635__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-itaca-3635__tipologias.parquet diff=new_url
+       rows=19 parse_ok=13 parse_fail=6
+[OK]   45/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/perez-walk-3415
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-perez-walk-3415__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-perez-walk-3415__tipologias.parquet diff=new_url
+       rows=27 parse_ok=17 parse_fail=10
+[OK]   46/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/invent-juan-de-aliaga-2056
+       project=s-nexoinmobiliario-pe-departamentos-magdalena-del-mar-invent-juan-de-aliaga-2056__proyecto.parquet tipologias=s-nexoinmobiliario-pe-departamentos-magdalena-del-mar-invent-juan-de-aliaga-2056__tipologias.parquet diff=new_url
+       rows=35 parse_ok=21 parse_fail=14
+[OK]   47/47 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/salaverry-i-4007
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-salaverry-i-4007__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-salaverry-i-4007__tipologias.parquet diff=new_url
+       rows=49 parse_ok=28 parse_fail=21
+
+SUMMARY ok=47 fail=0 total=47

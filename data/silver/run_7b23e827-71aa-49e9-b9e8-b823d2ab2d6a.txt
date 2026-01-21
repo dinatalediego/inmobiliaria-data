@@ -1,0 +1,394 @@
+RUN_ID: 7b23e827-71aa-49e9-b9e8-b823d2ab2d6a
+SOURCE: nexo_inmobiliario
+STARTED_AT: 2026-01-18T17:17:10.677417+00:00
+URLS_LABEL: data\url_bank\bank_otros2.txt
+OUT_DIR: data\silver
+RAW_DIR: data\raw
+DELAY: min=1.5s max=3.0s
+
+[OK]   1/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/vernazza-3328
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-vernazza-3328__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-vernazza-3328__tipologias.parquet diff=new_url
+       rows=29 parse_ok=19 parse_fail=10
+[OK]   2/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/maytacapac1248-3962
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-maytacapac1248-3962__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-maytacapac1248-3962__tipologias.parquet diff=new_url
+       rows=19 parse_ok=13 parse_fail=6
+[OK]   3/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/ciudaris-i-monet-3379
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-ciudaris-i-monet-3379__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-ciudaris-i-monet-3379__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   4/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/eighth-avenue-2962
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-eighth-avenue-2962__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-eighth-avenue-2962__tipologias.parquet diff=new_url
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   5/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/cannelle-3472
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-cannelle-3472__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-cannelle-3472__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   6/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/camelia-3253
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-camelia-3253__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-camelia-3253__tipologias.parquet diff=new_url
+       rows=23 parse_ok=15 parse_fail=8
+[OK]   7/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/inca-ripac-3902
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-inca-ripac-3902__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-inca-ripac-3902__tipologias.parquet diff=new_url
+       rows=17 parse_ok=12 parse_fail=5
+[OK]   8/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/medina-3517
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-medina-3517__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-medina-3517__tipologias.parquet diff=new_url
+       rows=39 parse_ok=25 parse_fail=14
+[OK]   9/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/neo-lloque-3414
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-neo-lloque-3414__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-neo-lloque-3414__tipologias.parquet diff=new_url
+       rows=23 parse_ok=16 parse_fail=7
+[OK]   10/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/vive-olivar-3802
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-vive-olivar-3802__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-vive-olivar-3802__tipologias.parquet diff=new_url
+       rows=35 parse_ok=22 parse_fail=13
+[OK]   11/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/noa-3950
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-noa-3950__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-noa-3950__tipologias.parquet diff=new_url
+       rows=29 parse_ok=19 parse_fail=10
+[OK]   12/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/naxos-3376
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-naxos-3376__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-naxos-3376__tipologias.parquet diff=new_url
+       rows=23 parse_ok=15 parse_fail=8
+[OK]   13/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/cedro-33-3453
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-cedro-33-3453__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-cedro-33-3453__tipologias.parquet diff=new_url
+       rows=45 parse_ok=33 parse_fail=12
+[OK]   14/128 https://nexoinmobiliario.pe/departamentos/san-miguel/sauce-zen-3724
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-sauce-zen-3724__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-sauce-zen-3724__tipologias.parquet diff=new_url
+       rows=45 parse_ok=37 parse_fail=8
+[OK]   15/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/kauri-3346
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-kauri-3346__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-kauri-3346__tipologias.parquet diff=new_url
+       rows=33 parse_ok=26 parse_fail=7
+[OK]   16/128 https://nexoinmobiliario.pe/departamentos/surquillo/capuli-4000
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-capuli-4000__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-capuli-4000__tipologias.parquet diff=new_url
+       rows=45 parse_ok=39 parse_fail=6
+[OK]   17/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/amaranta-2940
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-amaranta-2940__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-amaranta-2940__tipologias.parquet diff=new_url
+       rows=67 parse_ok=37 parse_fail=30
+[OK]   18/128 https://nexoinmobiliario.pe/departamentos/surquillo/residencial-sukha-3241
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-residencial-sukha-3241__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-residencial-sukha-3241__tipologias.parquet diff=new_url
+       rows=17 parse_ok=12 parse_fail=5
+[OK]   19/128 https://nexoinmobiliario.pe/departamentos/surquillo/aurora-4-3602
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-aurora-4-3602__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-aurora-4-3602__tipologias.parquet diff=new_url
+       rows=20 parse_ok=14 parse_fail=6
+[OK]   20/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/landart-3482
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-landart-3482__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-landart-3482__tipologias.parquet diff=new_url
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   21/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/tulipan-3209
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-tulipan-3209__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-tulipan-3209__tipologias.parquet diff=new_url
+       rows=19 parse_ok=18 parse_fail=1
+[OK]   22/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/bonsai-3831
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-bonsai-3831__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-bonsai-3831__tipologias.parquet diff=new_url
+       rows=19 parse_ok=18 parse_fail=1
+[OK]   23/128 https://nexoinmobiliario.pe/departamentos/surquillo/bromelia-3855
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-bromelia-3855__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-bromelia-3855__tipologias.parquet diff=new_url
+       rows=19 parse_ok=18 parse_fail=1
+[OK]   24/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/roble-3693
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-roble-3693__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-roble-3693__tipologias.parquet diff=new_url
+       rows=15 parse_ok=14 parse_fail=1
+[OK]   25/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/avellana-3322
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-avellana-3322__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-avellana-3322__tipologias.parquet diff=new_url
+       rows=25 parse_ok=22 parse_fail=3
+[OK]   26/128 https://nexoinmobiliario.pe/departamentos/san-miguel/loto-3578
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-loto-3578__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-loto-3578__tipologias.parquet diff=new_url
+       rows=31 parse_ok=28 parse_fail=3
+[OK]   27/128 https://nexoinmobiliario.pe/departamentos/la-victoria/pino-3579
+       project=https-nexoinmobiliario-pe-departamentos-la-victoria-pino-3579__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-la-victoria-pino-3579__tipologias.parquet diff=new_url
+       rows=19 parse_ok=19 parse_fail=0
+[OK]   28/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/sucre-1005-4041
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-sucre-1005-4041__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-sucre-1005-4041__tipologias.parquet diff=new_url
+       rows=32 parse_ok=23 parse_fail=9
+[OK]   29/128 https://nexoinmobiliario.pe/departamentos/lince/cross-3392
+       project=https-nexoinmobiliario-pe-departamentos-lince-cross-3392__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-cross-3392__tipologias.parquet diff=new_url
+       rows=23 parse_ok=19 parse_fail=4
+[OK]   30/128 https://nexoinmobiliario.pe/departamentos/san-miguel/luma-san-miguel-3796
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-luma-san-miguel-3796__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-luma-san-miguel-3796__tipologias.parquet diff=new_url
+       rows=55 parse_ok=32 parse_fail=23
+[OK]   31/128 https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-iii-san-miguel-3342
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-iii-san-miguel-3342__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-iii-san-miguel-3342__tipologias.parquet diff=new_url
+       rows=77 parse_ok=46 parse_fail=31
+[OK]   32/128 https://nexoinmobiliario.pe/departamentos/surquillo/danaus-4053
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-danaus-4053__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-danaus-4053__tipologias.parquet diff=new_url
+       rows=79 parse_ok=56 parse_fail=23
+[OK]   33/128 https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-ii-san-miguel-2744
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-ii-san-miguel-2744__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-ii-san-miguel-2744__tipologias.parquet diff=new_url
+       rows=55 parse_ok=32 parse_fail=23
+[OK]   34/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/centrium-santa-beatriz-3491
+       project=ps-nexoinmobiliario-pe-departamentos-cercado-de-lima-centrium-santa-beatriz-3491__proyecto.parquet tipologias=ps-nexoinmobiliario-pe-departamentos-cercado-de-lima-centrium-santa-beatriz-3491__tipologias.parquet diff=new_url
+       rows=71 parse_ok=41 parse_fail=30
+[OK]   35/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/dulanto-pueblo-libre-3538
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-dulanto-pueblo-libre-3538__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-dulanto-pueblo-libre-3538__tipologias.parquet diff=new_url
+       rows=73 parse_ok=43 parse_fail=30
+[OK]   36/128 https://nexoinmobiliario.pe/departamentos/san-miguel/alborada-san-miguel-2115
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-san-miguel-2115__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-alborada-san-miguel-2115__tipologias.parquet diff=new_url
+       rows=51 parse_ok=30 parse_fail=21
+[OK]   37/128 https://nexoinmobiliario.pe/departamentos/miraflores/rosario-240-2880
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-rosario-240-2880__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-rosario-240-2880__tipologias.parquet diff=new_url
+       rows=14 parse_ok=0 parse_fail=14
+[OK]   38/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/simon-2418
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-simon-2418__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-simon-2418__tipologias.parquet diff=new_url
+       rows=11 parse_ok=9 parse_fail=2
+[OK]   39/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/inspira-2-3598
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-inspira-2-3598__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-inspira-2-3598__tipologias.parquet diff=new_url
+       rows=157 parse_ok=83 parse_fail=74
+[OK]   40/128 https://nexoinmobiliario.pe/departamentos/miraflores/piknik-park-2417
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-piknik-park-2417__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-piknik-park-2417__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   41/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/irigoyen-128-3281
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-irigoyen-128-3281__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-irigoyen-128-3281__tipologias.parquet diff=new_url
+       rows=29 parse_ok=19 parse_fail=10
+[OK]   42/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/amatista-3008
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-amatista-3008__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-amatista-3008__tipologias.parquet diff=new_url
+       rows=31 parse_ok=25 parse_fail=6
+[OK]   43/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-bea-3684
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-bea-3684__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-bea-3684__tipologias.parquet diff=new_url
+       rows=29 parse_ok=20 parse_fail=9
+[OK]   44/128 https://nexoinmobiliario.pe/departamentos/brena/albamar-quadra-3954
+       project=https-nexoinmobiliario-pe-departamentos-brena-albamar-quadra-3954__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-brena-albamar-quadra-3954__tipologias.parquet diff=new_url
+       rows=43 parse_ok=35 parse_fail=8
+[OK]   45/128 https://nexoinmobiliario.pe/departamentos/brena/albamar-gran-cornejo-4092
+       project=https-nexoinmobiliario-pe-departamentos-brena-albamar-gran-cornejo-4092__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-brena-albamar-gran-cornejo-4092__tipologias.parquet diff=new_url
+       rows=31 parse_ok=27 parse_fail=4
+[OK]   46/128 https://nexoinmobiliario.pe/departamentos/chorrillos/albamar-miralba-3663
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-albamar-miralba-3663__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-albamar-miralba-3663__tipologias.parquet diff=new_url
+       rows=31 parse_ok=25 parse_fail=6
+[OK]   47/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-re-3385
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-re-3385__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-re-3385__tipologias.parquet diff=new_url
+       rows=32 parse_ok=29 parse_fail=3
+[OK]   48/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/albamar-flex-3953
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-flex-3953__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-albamar-flex-3953__tipologias.parquet diff=new_url
+       rows=45 parse_ok=36 parse_fail=9
+[OK]   49/128 https://nexoinmobiliario.pe/departamentos/chorrillos/albamar-brisana-3781
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-albamar-brisana-3781__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-albamar-brisana-3781__tipologias.parquet diff=new_url
+       rows=38 parse_ok=29 parse_fail=9
+[OK]   50/128 https://nexoinmobiliario.pe/departamentos/san-miguel/albamar-match-3406
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-albamar-match-3406__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-albamar-match-3406__tipologias.parquet diff=new_url
+       rows=25 parse_ok=22 parse_fail=3
+[OK]   51/128 https://nexoinmobiliario.pe/departamentos/la-victoria/hercelles-3119
+       project=https-nexoinmobiliario-pe-departamentos-la-victoria-hercelles-3119__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-la-victoria-hercelles-3119__tipologias.parquet diff=new_url
+       rows=37 parse_ok=18 parse_fail=19
+[OK]   52/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/monte-carmelo-551-3722
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-monte-carmelo-551-3722__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-monte-carmelo-551-3722__tipologias.parquet diff=new_url
+       rows=33 parse_ok=21 parse_fail=12
+[OK]   53/128 https://nexoinmobiliario.pe/departamentos/lince/venecia-3838
+       project=https-nexoinmobiliario-pe-departamentos-lince-venecia-3838__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-venecia-3838__tipologias.parquet diff=new_url
+       rows=33 parse_ok=21 parse_fail=12
+[OK]   54/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/prada-3336
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-prada-3336__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-prada-3336__tipologias.parquet diff=new_url
+       rows=29 parse_ok=18 parse_fail=11
+[OK]   55/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/residencial-valenti-2759
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-residencial-valenti-2759__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-residencial-valenti-2759__tipologias.parquet diff=new_url
+       rows=31 parse_ok=19 parse_fail=12
+[OK]   56/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/minimal-3053
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-minimal-3053__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-minimal-3053__tipologias.parquet diff=new_url
+       rows=31 parse_ok=30 parse_fail=1
+[OK]   57/128 https://nexoinmobiliario.pe/departamentos/lince/slim-3363
+       project=https-nexoinmobiliario-pe-departamentos-lince-slim-3363__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-slim-3363__tipologias.parquet diff=new_url
+       rows=31 parse_ok=28 parse_fail=3
+[OK]   58/128 https://nexoinmobiliario.pe/departamentos/brena/varela-living-2504
+       project=https-nexoinmobiliario-pe-departamentos-brena-varela-living-2504__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-brena-varela-living-2504__tipologias.parquet diff=new_url
+       rows=47 parse_ok=28 parse_fail=19
+[OK]   59/128 https://nexoinmobiliario.pe/departamentos/san-miguel/bertolotto-etapa-iii-2587
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-bertolotto-etapa-iii-2587__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-bertolotto-etapa-iii-2587__tipologias.parquet diff=new_url
+       rows=13 parse_ok=10 parse_fail=3
+[OK]   60/128 https://nexoinmobiliario.pe/departamentos/miraflores/mandra-2588
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-mandra-2588__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-mandra-2588__tipologias.parquet diff=new_url
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   61/128 https://nexoinmobiliario.pe/departamentos/san-miguel/bertolotto-etapa-iv-2665
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-bertolotto-etapa-iv-2665__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-bertolotto-etapa-iv-2665__tipologias.parquet diff=new_url
+       rows=11 parse_ok=9 parse_fail=2
+[OK]   62/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/nossa-2560
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-nossa-2560__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-nossa-2560__tipologias.parquet diff=new_url
+       rows=14 parse_ok=11 parse_fail=3
+[OK]   63/128 https://nexoinmobiliario.pe/departamentos/lince/residencial-casanova-3045
+       project=https-nexoinmobiliario-pe-departamentos-lince-residencial-casanova-3045__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-residencial-casanova-3045__tipologias.parquet diff=new_url
+       rows=23 parse_ok=16 parse_fail=7
+[OK]   64/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/huascar-21-3554
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-huascar-21-3554__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-huascar-21-3554__tipologias.parquet diff=new_url
+       rows=23 parse_ok=16 parse_fail=7
+[OK]   65/128 https://nexoinmobiliario.pe/departamentos/lince/flat-jose-leal-4055
+       project=https-nexoinmobiliario-pe-departamentos-lince-flat-jose-leal-4055__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-flat-jose-leal-4055__tipologias.parquet diff=new_url
+       rows=31 parse_ok=26 parse_fail=5
+[OK]   66/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/altanova-3988
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-altanova-3988__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-altanova-3988__tipologias.parquet diff=new_url
+       rows=23 parse_ok=23 parse_fail=0
+[OK]   67/128 https://nexoinmobiliario.pe/departamentos/chorrillos/invent-chorrillos-1974
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-invent-chorrillos-1974__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-invent-chorrillos-1974__tipologias.parquet diff=new_url
+       rows=35 parse_ok=21 parse_fail=14
+[OK]   68/128 https://nexoinmobiliario.pe/departamentos/la-victoria/fortiva-3665
+       project=https-nexoinmobiliario-pe-departamentos-la-victoria-fortiva-3665__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-la-victoria-fortiva-3665__tipologias.parquet diff=new_url
+       rows=31 parse_ok=27 parse_fail=4
+[OK]   69/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/nueva-metropolis-2912
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-nueva-metropolis-2912__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-nueva-metropolis-2912__tipologias.parquet diff=new_url
+       rows=29 parse_ok=21 parse_fail=8
+[OK]   70/128 https://nexoinmobiliario.pe/departamentos/san-isidro/the-brickell-tower-3986
+       project=https-nexoinmobiliario-pe-departamentos-san-isidro-the-brickell-tower-3986__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-isidro-the-brickell-tower-3986__tipologias.parquet diff=new_url
+       rows=21 parse_ok=21 parse_fail=0
+[OK]   71/128 https://nexoinmobiliario.pe/departamentos/cercado-de-lima/invent-tirado-2253
+       project=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-invent-tirado-2253__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-cercado-de-lima-invent-tirado-2253__tipologias.parquet diff=new_url
+       rows=33 parse_ok=20 parse_fail=13
+[OK]   72/128 https://nexoinmobiliario.pe/departamentos/barranco/patria-2430
+       project=https-nexoinmobiliario-pe-departamentos-barranco-patria-2430__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-barranco-patria-2430__tipologias.parquet diff=new_url
+       rows=25 parse_ok=16 parse_fail=9
+[OK]   73/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/homely-3311
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-homely-3311__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-homely-3311__tipologias.parquet diff=new_url
+       rows=29 parse_ok=19 parse_fail=10
+[OK]   74/128 https://nexoinmobiliario.pe/departamentos/lince/beli-465-3677
+       project=https-nexoinmobiliario-pe-departamentos-lince-beli-465-3677__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-beli-465-3677__tipologias.parquet diff=new_url
+       rows=35 parse_ok=22 parse_fail=13
+[OK]   75/128 https://nexoinmobiliario.pe/departamentos/lince/paseo-jazmines-3223
+       project=https-nexoinmobiliario-pe-departamentos-lince-paseo-jazmines-3223__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-paseo-jazmines-3223__tipologias.parquet diff=new_url
+       rows=17 parse_ok=13 parse_fail=4
+[OK]   76/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/nuova-vita-3371
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-nuova-vita-3371__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-nuova-vita-3371__tipologias.parquet diff=new_url
+       rows=33 parse_ok=21 parse_fail=12
+[OK]   77/128 https://nexoinmobiliario.pe/departamentos/lince/belisario-967-2763
+       project=https-nexoinmobiliario-pe-departamentos-lince-belisario-967-2763__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-belisario-967-2763__tipologias.parquet diff=new_url
+       rows=24 parse_ok=16 parse_fail=8
+[OK]   78/128 https://nexoinmobiliario.pe/departamentos/la-victoria/green-view-2384
+       project=https-nexoinmobiliario-pe-departamentos-la-victoria-green-view-2384__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-la-victoria-green-view-2384__tipologias.parquet diff=new_url
+       rows=8 parse_ok=7 parse_fail=1
+[OK]   79/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/lienzo-park-live-3252
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-lienzo-park-live-3252__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-lienzo-park-live-3252__tipologias.parquet diff=new_url
+       rows=14 parse_ok=11 parse_fail=3
+[OK]   80/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/top-living-3422
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-top-living-3422__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-top-living-3422__tipologias.parquet diff=new_url
+       rows=32 parse_ok=24 parse_fail=8
+[OK]   81/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/vianova-3991
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-vianova-3991__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-vianova-3991__tipologias.parquet diff=new_url
+       rows=17 parse_ok=13 parse_fail=4
+[OK]   82/128 https://nexoinmobiliario.pe/departamentos/san-miguel/libertad-2487
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-libertad-2487__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-libertad-2487__tipologias.parquet diff=new_url
+       rows=27 parse_ok=17 parse_fail=10
+[OK]   83/128 https://nexoinmobiliario.pe/departamentos/miraflores/lyra-4028
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-lyra-4028__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-lyra-4028__tipologias.parquet diff=new_url
+       rows=47 parse_ok=34 parse_fail=13
+[OK]   84/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/monte-sierpe-3477
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-monte-sierpe-3477__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-monte-sierpe-3477__tipologias.parquet diff=new_url
+       rows=27 parse_ok=17 parse_fail=10
+[OK]   85/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/edificio-magda-3998
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-edificio-magda-3998__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-edificio-magda-3998__tipologias.parquet diff=new_url
+       rows=48 parse_ok=31 parse_fail=17
+[OK]   86/128 https://nexoinmobiliario.pe/departamentos/barranco/los-poetas-3545
+       project=https-nexoinmobiliario-pe-departamentos-barranco-los-poetas-3545__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-barranco-los-poetas-3545__tipologias.parquet diff=new_url
+       rows=23 parse_ok=15 parse_fail=8
+[OK]   87/128 https://nexoinmobiliario.pe/departamentos/san-miguel/amazonika-4083
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-amazonika-4083__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-amazonika-4083__tipologias.parquet diff=new_url
+       rows=131 parse_ok=69 parse_fail=62
+[OK]   88/128 https://nexoinmobiliario.pe/departamentos/san-miguel/oceanika-3345
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-oceanika-3345__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-oceanika-3345__tipologias.parquet diff=new_url
+       rows=25 parse_ok=16 parse_fail=9
+[OK]   89/128 https://nexoinmobiliario.pe/departamentos/lince/be-happy-4084
+       project=https-nexoinmobiliario-pe-departamentos-lince-be-happy-4084__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-be-happy-4084__tipologias.parquet diff=new_url
+       rows=33 parse_ok=25 parse_fail=8
+[OK]   90/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/villa-alba-3610
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-villa-alba-3610__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-villa-alba-3610__tipologias.parquet diff=new_url
+       rows=34 parse_ok=24 parse_fail=10
+[OK]   91/128 https://nexoinmobiliario.pe/departamentos/surquillo/villa-elenia-3886
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-villa-elenia-3886__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-villa-elenia-3886__tipologias.parquet diff=new_url
+       rows=27 parse_ok=23 parse_fail=4
+[OK]   92/128 https://nexoinmobiliario.pe/departamentos/lince/villa-velarde-2624
+       project=https-nexoinmobiliario-pe-departamentos-lince-villa-velarde-2624__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-villa-velarde-2624__tipologias.parquet diff=new_url
+       rows=21 parse_ok=15 parse_fail=6
+[OK]   93/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/nerea-1955
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-nerea-1955__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-nerea-1955__tipologias.parquet diff=new_url
+       rows=15 parse_ok=11 parse_fail=4
+[OK]   94/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/villa-convivium-2-2306
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-villa-convivium-2-2306__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-villa-convivium-2-2306__tipologias.parquet diff=new_url
+       rows=11 parse_ok=9 parse_fail=2
+[OK]   95/128 https://nexoinmobiliario.pe/departamentos/miraflores/casa-paraud-3205
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-casa-paraud-3205__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-casa-paraud-3205__tipologias.parquet diff=new_url
+       rows=18 parse_ok=13 parse_fail=5
+[OK]   96/128 https://nexoinmobiliario.pe/departamentos/brena/ativo-3592
+       project=https-nexoinmobiliario-pe-departamentos-brena-ativo-3592__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-brena-ativo-3592__tipologias.parquet diff=new_url
+       rows=33 parse_ok=28 parse_fail=5
+[OK]   97/128 https://nexoinmobiliario.pe/departamentos/san-luis/tracciato-4023
+       project=https-nexoinmobiliario-pe-departamentos-san-luis-tracciato-4023__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-luis-tracciato-4023__tipologias.parquet diff=new_url
+       rows=27 parse_ok=24 parse_fail=3
+[OK]   98/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/belalba-3305
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-belalba-3305__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-belalba-3305__tipologias.parquet diff=new_url
+       rows=49 parse_ok=38 parse_fail=11
+[OK]   99/128 https://nexoinmobiliario.pe/departamentos/surquillo/tasca-4044
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-tasca-4044__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-tasca-4044__tipologias.parquet diff=new_url
+       rows=27 parse_ok=24 parse_fail=3
+[OK]   100/128 https://nexoinmobiliario.pe/departamentos/san-isidro/preminenza-2998
+       project=https-nexoinmobiliario-pe-departamentos-san-isidro-preminenza-2998__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-isidro-preminenza-2998__tipologias.parquet diff=new_url
+       rows=39 parse_ok=29 parse_fail=10
+[OK]   101/128 https://nexoinmobiliario.pe/departamentos/miraflores/abstract-2920
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-abstract-2920__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-abstract-2920__tipologias.parquet diff=new_url
+       rows=27 parse_ok=17 parse_fail=10
+[OK]   102/128 https://nexoinmobiliario.pe/departamentos/san-miguel/allegro-loft-1418
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-allegro-loft-1418__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-allegro-loft-1418__tipologias.parquet diff=new_url
+       rows=13 parse_ok=10 parse_fail=3
+[OK]   103/128 https://nexoinmobiliario.pe/departamentos/san-borja/hit-2789
+       project=https-nexoinmobiliario-pe-departamentos-san-borja-hit-2789__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-borja-hit-2789__tipologias.parquet diff=new_url
+       rows=11 parse_ok=9 parse_fail=2
+[OK]   104/128 https://nexoinmobiliario.pe/departamentos/chorrillos/friendz-2-2990
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-friendz-2-2990__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-friendz-2-2990__tipologias.parquet diff=new_url
+       rows=34 parse_ok=21 parse_fail=13
+[OK]   105/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/malena-family-apartments-3909
+       project=exoinmobiliario-pe-departamentos-magdalena-del-mar-malena-family-apartments-3909__proyecto.parquet tipologias=exoinmobiliario-pe-departamentos-magdalena-del-mar-malena-family-apartments-3909__tipologias.parquet diff=new_url
+       rows=51 parse_ok=32 parse_fail=19
+[OK]   106/128 https://nexoinmobiliario.pe/departamentos/la-victoria/family-apartments-2796
+       project=https-nexoinmobiliario-pe-departamentos-la-victoria-family-apartments-2796__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-la-victoria-family-apartments-2796__tipologias.parquet diff=new_url
+       rows=19 parse_ok=13 parse_fail=6
+[OK]   107/128 https://nexoinmobiliario.pe/departamentos/miraflores/mf-work-living-apartments-3004
+       project=ttps-nexoinmobiliario-pe-departamentos-miraflores-mf-work-living-apartments-3004__proyecto.parquet tipologias=ttps-nexoinmobiliario-pe-departamentos-miraflores-mf-work-living-apartments-3004__tipologias.parquet diff=new_url
+       rows=19 parse_ok=13 parse_fail=6
+[OK]   108/128 https://nexoinmobiliario.pe/departamentos/surquillo/sq-work-living-apartments-2671
+       project=https-nexoinmobiliario-pe-departamentos-surquillo-sq-work-living-apartments-2671__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-surquillo-sq-work-living-apartments-2671__tipologias.parquet diff=new_url
+       rows=8 parse_ok=7 parse_fail=1
+[OK]   109/128 https://nexoinmobiliario.pe/departamentos/chorrillos/parque-fatima-4012
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-parque-fatima-4012__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-parque-fatima-4012__tipologias.parquet diff=new_url
+       rows=32 parse_ok=20 parse_fail=12
+[OK]   110/128 https://nexoinmobiliario.pe/departamentos/chorrillos/mixxo-2861
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-mixxo-2861__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-mixxo-2861__tipologias.parquet diff=new_url
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   111/128 https://nexoinmobiliario.pe/departamentos/chorrillos/costazul-3427
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-costazul-3427__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-costazul-3427__tipologias.parquet diff=new_url
+       rows=33 parse_ok=21 parse_fail=12
+[OK]   112/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/parkview-3553
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-parkview-3553__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-parkview-3553__tipologias.parquet diff=new_url
+       rows=91 parse_ok=50 parse_fail=41
+[OK]   113/128 https://nexoinmobiliario.pe/departamentos/pueblo-libre/emerald-pueblo-libre-2-2730
+       project=https-nexoinmobiliario-pe-departamentos-pueblo-libre-emerald-pueblo-libre-2-2730__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-pueblo-libre-emerald-pueblo-libre-2-2730__tipologias.parquet diff=new_url
+       rows=51 parse_ok=30 parse_fail=21
+[OK]   114/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/torre-magno-4062
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-torre-magno-4062__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-torre-magno-4062__tipologias.parquet diff=new_url
+       rows=31 parse_ok=22 parse_fail=9
+[OK]   115/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/unico-magdalena-3171
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-unico-magdalena-3171__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-unico-magdalena-3171__tipologias.parquet diff=new_url
+       rows=25 parse_ok=21 parse_fail=4
+[OK]   116/128 https://nexoinmobiliario.pe/departamentos/chorrillos/milos-3959
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-milos-3959__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-milos-3959__tipologias.parquet diff=new_url
+       rows=31 parse_ok=20 parse_fail=11
+[OK]   117/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/zante-2794
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-zante-2794__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-zante-2794__tipologias.parquet diff=new_url
+       rows=8 parse_ok=7 parse_fail=1
+[OK]   118/128 https://nexoinmobiliario.pe/departamentos/magdalena-del-mar/eco-style-2476
+       project=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-eco-style-2476__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-magdalena-del-mar-eco-style-2476__tipologias.parquet diff=new_url
+       rows=26 parse_ok=17 parse_fail=9
+[OK]   119/128 https://nexoinmobiliario.pe/departamentos/san-isidro/basadre-1310-2621
+       project=https-nexoinmobiliario-pe-departamentos-san-isidro-basadre-1310-2621__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-isidro-basadre-1310-2621__tipologias.parquet diff=new_url
+       rows=21 parse_ok=15 parse_fail=6
+[OK]   120/128 https://nexoinmobiliario.pe/departamentos/san-miguel/portofino-3916
+       project=https-nexoinmobiliario-pe-departamentos-san-miguel-portofino-3916__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-san-miguel-portofino-3916__tipologias.parquet diff=new_url
+       rows=35 parse_ok=25 parse_fail=10
+[OK]   121/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/cedros-park-3877
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-cedros-park-3877__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-cedros-park-3877__tipologias.parquet diff=new_url
+       rows=41 parse_ok=28 parse_fail=13
+[OK]   122/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/glam-3410
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-glam-3410__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-glam-3410__tipologias.parquet diff=new_url
+       rows=45 parse_ok=27 parse_fail=18
+[OK]   123/128 https://nexoinmobiliario.pe/departamentos/santiago-de-surco/via-cadiz-3412
+       project=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-via-cadiz-3412__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-santiago-de-surco-via-cadiz-3412__tipologias.parquet diff=new_url
+       rows=17 parse_ok=13 parse_fail=4
+[OK]   124/128 https://nexoinmobiliario.pe/departamentos/chorrillos/faisanes-iii-3434
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-faisanes-iii-3434__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-faisanes-iii-3434__tipologias.parquet diff=new_url
+       rows=49 parse_ok=39 parse_fail=10
+[OK]   125/128 https://nexoinmobiliario.pe/departamentos/chorrillos/faisanes-343-2774
+       project=https-nexoinmobiliario-pe-departamentos-chorrillos-faisanes-343-2774__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-chorrillos-faisanes-343-2774__tipologias.parquet diff=new_url
+       rows=39 parse_ok=23 parse_fail=16
+[OK]   126/128 https://nexoinmobiliario.pe/departamentos/lince/park-orquideas-3666
+       project=https-nexoinmobiliario-pe-departamentos-lince-park-orquideas-3666__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-lince-park-orquideas-3666__tipologias.parquet diff=new_url
+       rows=25 parse_ok=22 parse_fail=3
+[OK]   127/128 https://nexoinmobiliario.pe/departamentos/jesus-maria/san-felipe-3060
+       project=https-nexoinmobiliario-pe-departamentos-jesus-maria-san-felipe-3060__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-jesus-maria-san-felipe-3060__tipologias.parquet diff=new_url
+       rows=21 parse_ok=14 parse_fail=7
+[OK]   128/128 https://nexoinmobiliario.pe/departamentos/miraflores/arequipa-1988
+       project=https-nexoinmobiliario-pe-departamentos-miraflores-arequipa-1988__proyecto.parquet tipologias=https-nexoinmobiliario-pe-departamentos-miraflores-arequipa-1988__tipologias.parquet diff=new_url
+       rows=17 parse_ok=12 parse_fail=5
+
+SUMMARY ok=128 fail=0 total=128
