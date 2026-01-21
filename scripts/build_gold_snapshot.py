@@ -81,8 +81,10 @@ def build():
     # Guardar gold local (opcional)
     os.makedirs(os.path.dirname(OUT_GOLD_PROJECTS), exist_ok=True)
     os.makedirs(os.path.dirname(OUT_GOLD_TYPOLOGIES), exist_ok=True)
-    pq.write_table(pd.DataFrame(dfp2).to_arrow(), OUT_GOLD_PROJECTS)
-    pq.write_table(pd.DataFrame(dft).to_arrow(), OUT_GOLD_TYPOLOGIES)
+    dfp2.to_parquet(OUT_GOLD_PROJECTS, index=False)
+    dft.to_parquet(OUT_GOLD_TYPOLOGIES, index=False)
+    #pq.write_table(pd.DataFrame(dfp2).to_arrow(), OUT_GOLD_PROJECTS)
+    #pq.write_table(pd.DataFrame(dft).to_arrow(), OUT_GOLD_TYPOLOGIES)
 
     return dfp2, dft
 
